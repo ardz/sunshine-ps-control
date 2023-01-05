@@ -34,6 +34,7 @@ function Show-Menu
     Write-Host
     Write-Host "--- Sunshine Gamestream Server and VirtualHere Client Admin ---"
     Write-Host
+	Write-Host "S: Press 's' to query service status"
     Write-Host "1: Press '1' to start Sunshine server and VirtualHere client."
     Write-Host "2: Press '2' to stop Sunshine server and VirtualHere client."
 	Write-Host "3: Press '3' to open Sunshine Admin UI and VirtualHere client UI."
@@ -70,6 +71,11 @@ do
      $selection = Read-Host "Choose an option"
      switch ($selection)
      {
+		 's' {
+			 Get-Service "sunshinesvc"
+			 Get-Service "vhclient"
+         }
+		 
          '1' {
 			 Write-Host "Starting Sunshine server..."
 			 Run-AsAdmin -ScriptPath 'sunrise.ps1'
