@@ -22,7 +22,7 @@ function Show-Menu
      .  _-~ . \                   /   ~-_     
      _-~       `\               /'*      ~-_  
     ~           /`--___   ___--'\           ~
-           *  /        ---     .  \   Go f**k yourselves Nvidia.
+           *  /        ---     .  \   GFY Nvidia.
             /     *     |           \
           /             |   *         \
                      .  |        .
