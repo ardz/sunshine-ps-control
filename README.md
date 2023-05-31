@@ -12,5 +12,4 @@ Ensure the service startup type is set to "Manual". I don't like the idea of any
 
 Find it works best by using an RDP/VNC session to the host PC to switch it off and on remotely (when you're in another room in the house for example).
 
-![image](https://user-images.githubusercontent.com/6310248/208802356-093135e2-b00a-4c59-90e9-9325774ed99b.png)
-
+![image](https://github.com/ardz/sunshine-ps-control/assets/6310248/00c403e8-a609-4efd-b783-2c344246d4c2)
